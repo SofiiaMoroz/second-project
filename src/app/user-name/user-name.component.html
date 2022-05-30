@@ -1,0 +1,14 @@
+<p class="bold">Homework #1</p>
+<p>1. Add an Input field which updates a prorerty ('username') via Two-Way-Binding
+    <br>2. Output the username prorerty via String Interpolation (in a paragraph below the input)
+    <br>3. Add a button which may only be clicked if the username is NOT an empty String
+    <br>4. Upon clicking the button. the username should be reset to an empty string
+    br
+</p>
+<input type="text"
+    class="input"
+    [(ngModel)]="username">
+<p>New user's name is: <span class="bold">{{ username }}</span></p>
+<button
+    [disabled]="username === ''"
+    (click)="username = ''">Reset user</button>

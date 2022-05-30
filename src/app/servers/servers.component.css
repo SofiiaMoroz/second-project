@@ -17,3 +17,15 @@ input {
     margin-bottom: 20px;
     width: 40%;
 }
+
+.small-lable {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: -2px;
+}
+
+.red {
+    color: red;
+}
