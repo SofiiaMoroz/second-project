@@ -1,3 +1,7 @@
+This is my second project using Angular. Here I learned the basics of Angular. I was practicing with all types of databinding and using different types of directives.
+
+
+
 # FirstProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
