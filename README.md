@@ -2,6 +2,14 @@ This is my second project using Angular. Here I learned the basics of Angular. I
 
 
 
+
+
+
+
+
+
+
+
 # FirstProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
