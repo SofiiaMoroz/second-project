@@ -1,0 +1,15 @@
+<hr>
+<p class="bold">Homework #2</p>
+<p>1. Add a button which says 'Display details'
+    <br>2. Add a paragraph with any content of your choice (e. g. 'Secret Password = tuna')
+    <br>3. Toggle the displaying og that paragraph with the button created in the first step
+    <br>4. Log all button clicks in an array and output that array below the secret paragraph (maybe log a timestamp or simply an increment number)
+    <br>5. Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)
+</p>
+<button 
+    (click)="onToggleDetails()">Show details</button>
+<p *ngIf="showSecret">Secret Password = tuna</p>
+<div 
+    *ngFor="let logItem of log; let i = index"
+    [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'transparent'}"
+    [ngClass]="{white: i >= 4}">{{ i + 1 }} click</div>
